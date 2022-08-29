@@ -1,0 +1,63 @@
+.projects{
+    width: 70%;
+    margin-top: 20px;
+}
+.projects__input{
+    width: 84%;
+    font-size: 15px;
+}
+.btn-projects{
+    font-size: 15px;
+}
+.projects-num,
+.projects-text{
+    font-weight:500
+}
+@media only screen and (max-width:1094px){
+    .projects__input{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:916px){
+    .projects__input{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:780px){
+    .projects__input{
+        width: 73%;
+    }
+}
+@media only screen and (max-width:767px){
+    .projects{
+        width: 100%;
+    }
+    .projects__input{
+        width:80%;
+    }
+}
+@media only screen and (max-width:622px){
+    .projects__input{
+        width:75%;
+    }
+}
+@media only screen and (max-width:503px){
+    .projects__input{
+        width:70%;
+    }
+}
+@media only screen and (max-width:425px){
+    .projects__input{
+        width:65%;
+    }
+}
+@media only screen and (max-width:370px){
+    .projects__input{
+        width:60%;
+    }
+}
+@media only screen and (max-width:325px){
+    .projects__input{
+        width:58%;
+    }
+}

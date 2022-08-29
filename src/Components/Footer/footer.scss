@@ -1,0 +1,45 @@
+.footer{
+    padding-bottom: 30px;
+}
+.footer__logo{
+    color: rgba(grey,.9);
+    margin-right: 20px;
+    text-decoration: none;
+}
+.footer__logo .fa-github{
+    font-size:25px;
+}
+.footer__logo-text{
+    margin-left:30px;
+    font-size: 13px;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+}
+.footer__list{
+    align-items: center;
+}
+.footer__item{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer__link{
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer__link:hover{
+    text-decoration:underline;
+}
+@media only screen and (max-width:850px){
+    .footer-nav{
+        flex-direction: column-reverse;
+    }
+    .footer__list{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer__item{
+        margin-top:0;
+    }
+}

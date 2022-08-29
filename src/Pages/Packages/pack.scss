@@ -1,0 +1,56 @@
+.pack{
+    width: 70%;
+    margin-top: 20px;
+}
+.pack-text__bottom{
+    font-size: 20px;
+    color: gray;
+}
+.pack-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.pack-card{
+    padding: 10px;
+    height: 270px;
+}
+.pack-card__text{
+    font-size: 14px;
+    color: gray;
+}
+.pack-card__link{
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: rgba(gray,.4);
+    color: #000;
+    border-radius: 5px;
+    width: 100px;
+}
+@media only screen and (max-width:991px){
+    .pack-card-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:767px){
+    .pack{
+        width: 100%;
+    }
+    .pack-card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pack-card{
+        height: 200px;
+    }
+}
+@media only screen and (max-width:500px){
+    .pack-card{
+        height:220px;
+    }
+}
+@media only screen and (max-width:380px){
+    .pack-card{
+        height:240px;
+    }
+}

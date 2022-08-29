@@ -1,0 +1,74 @@
+
+.login-icon{
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+}
+.login-text{
+    font-size:30px;
+    margin-top:80px;
+}
+.login-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    border: 1px solid rgba(gray,.4);
+    border-radius: 5px;
+}
+.username-text{
+    font-size: 14px;
+}
+.user-password,
+.forgot-password{
+    font-size: 14px;
+    text-decoration: none;
+}
+.login-btn{
+    font-size: 14px;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid rgba(gray,.4);
+    border-radius: 5px;
+}
+.new-text,
+.new-account,
+.login-nav__text{
+    font-size: 14px;
+}
+.new-account{
+    margin-left: 5px;
+}
+.new-account{
+    text-decoration: none;
+}
+.new-account:hover{
+    text-decoration: underline;
+}
+.login-nav{
+    position: absolute;
+    top: 100%;
+}
+.login-nav__text{
+    text-decoration: none;
+}
+.login-nav__text:hover{
+    text-decoration: underline;
+}
+.login-nav__text+.login-nav__text{
+    margin-left: 20px;
+}
+.change{
+    color: gray;
+}

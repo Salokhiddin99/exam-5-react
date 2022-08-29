@@ -1,0 +1,117 @@
+.overview{
+    width: 70%;
+    margin-top: 20px;
+}
+.overview-top{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.card{
+    height: 100px;
+}
+.card__icon{
+    color: grey;
+}
+.card a{
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+.card__action{
+    font-weight: 500;
+    width: 100px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: grey;
+}
+.card__circle{
+    display: inline-block;
+    width: 12px;
+    height:12px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+}
+.card__lang{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.gold{
+    background-color: gold;
+}
+.violet{
+    background-color: violet;
+}
+.darkviolet{
+    background-color: darkviolet;
+}
+.overview-commit__date{
+    position: relative;
+    font-weight: 500;
+    font-size: 13px;
+}
+.overview__year{
+    color: grey;
+    margin-left: 5px;
+}
+.line-date{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(grey,.4);
+    margin-left: 20px;
+}
+.overview__commits{
+    position: relative;
+    border-left: 2px solid rgba(grey,.4);
+    padding-left: 20px;
+}
+.overview__commits-list-active{
+    height: 10px;
+    overflow: hidden;
+}
+.overview__commits-title{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.overview__commits-link{
+    font-size: 14px;
+    text-decoration: none;
+}
+.overview__commits-link:hover{
+    text-decoration: underline;
+}
+.overview__commits-item{
+    margin-top: 5px;
+}
+.overview-circle{
+    position: absolute;
+    left: -17px;
+    top: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:lightgray;
+}
+.overview-arrow{
+    cursor: pointer;
+}
+.overview-arrow:hover{
+    color: blue;
+}
+@media only screen and (max-width:767px){
+    .overview{
+        width: 100%;
+    }
+    .overview-top{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .overview__commits{
+        margin-left: 10px;
+        width: 95%;
+    }
+}

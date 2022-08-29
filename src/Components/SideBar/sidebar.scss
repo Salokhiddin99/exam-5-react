@@ -1,0 +1,61 @@
+.bar{
+    position: relative;
+    width:300px;
+    // background-color: red;
+}
+.bar__img{
+    width: 100%;
+    position: absolute;
+    top: -2%;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-right: 20px;
+}
+.bar__user{
+    margin-top: 280px;
+    font-size: 20px;
+    color: grey;
+}
+.bar__edit{
+    font-size: 15px;
+}
+.bar__follow-num,
+.bar__follow-text{
+    font-size: 15px;
+}
+@media only screen and (max-width:1199px){
+    .bar{
+        width: 250px;
+    }
+    .bar__user{
+        margin-top: 230px;
+    }
+}
+@media only screen and (max-width:767px){
+    .bar{
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .bar__img{
+        width: 150px;
+        height: 150px;
+        position: static;
+    }
+    .bar__img-box{
+        display: flex;
+        align-items: center;
+    }
+    .bar__user{
+        margin-top: 0;
+    }
+    .bar__edit{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:530px){
+    .bar__img{
+        width: 100px;
+        height: 100px;
+    }
+}

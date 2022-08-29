@@ -1,0 +1,157 @@
+.navbar-brand{
+    position: relative;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.hidden{
+    display: none;
+}
+.line{
+    display: none;
+    margin: 5px 0;
+}
+.fa-github{
+    position: absolute;
+    top:-2px;
+    left: -1px;
+    font-size:35px;
+}
+.fa-bars{
+    display: none;
+    font-size: 25px;
+}
+.nav__form{
+    width: 30%;
+}
+.nav__input{
+    font-size: 14px;
+    width:100%;
+    height: 30px;
+    background-color: transparent;
+    transition: width .3s;
+    outline: none;
+    border: 1px solid grey;
+}
+.nav__input:focus{
+    background-color: gray;
+    border: 1px solid grey;
+    box-shadow: 0 0 0 0 ;
+}
+.nav__input::placeholder{
+    color: azure;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+.nav__list-hidden{
+    display: none;
+}
+.nav__item{
+    margin-left: 20px;
+}
+.nav__link,
+.dropdown-item{
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.fa-plus{
+    font-size: 14px;
+}
+.nav__actions{
+    margin-left: auto;
+}
+.dropdown-wrapper{
+margin-left: 20px;
+margin-right: 20px;
+}
+.nav__dropdown{
+    position: relative;
+    // margin-right: 10px !important;
+}   
+.nav__dropdown2{
+    margin-right: 10px !important;
+}
+.nav__dropdown::before{
+    position: absolute;
+    content: "";
+    top:-15px;
+    right:7px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.dropdown-item{
+font-weight: 400;
+}
+.nav__user-avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+@media only screen and (max-width:1010px){
+    .hide{
+        display: none;
+    }
+    .nav__form{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:880px){
+    .dropdown-wrapper{
+        margin: 0 10px;
+    }
+}
+@media only screen and (max-width:767px){
+    .hide{
+        display: inline;
+    }
+    .line,
+    .hidden{
+        display: block;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        padding-bottom:15px;
+    }
+    .nav__form{
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .dropdown-wrapper{
+        display: none;
+    }
+    .nav__list{
+        display: none;
+        position: absolute;
+    }
+    .nav__list-hidden,
+    .nav__list-active{
+        display: none;
+        position: static;
+        width: 100% !important;
+        padding-top:10px;
+        padding-bottom:20px;
+    }
+    .nav__list-active{
+        display: block;
+    }
+    .fa-bars{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .nav__item{
+        display: block;
+        color: red;
+        margin-left: 0;
+    }
+    .nav__link{
+        color: red;
+    }
+}
+
+
