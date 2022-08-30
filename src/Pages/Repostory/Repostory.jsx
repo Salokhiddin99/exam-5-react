@@ -33,7 +33,7 @@ function Repostory() {
             </button>
             <input
               type="text"
-              className="repo-search__input form-control bg-dark w-50"
+              className="repo-search__input form-control bg-dark w-50 text-light"
             />
             <div className="repo-actions d-flex ms-md-3">
               <div className="dropdown">
