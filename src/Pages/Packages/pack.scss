@@ -15,6 +15,9 @@
     padding: 10px;
     height: 270px;
 }
+.pack-card__title {
+    color: #FFFFFF;
+}
 .pack-card__text{
     font-size: 14px;
     color: gray;
@@ -23,8 +26,8 @@
     font-size: 14px;
     text-align: center;
     border: 1px solid #000;
-    background-color: rgba(gray,.4);
-    color: #000;
+    background-color: rgb(42, 38, 38);
+    color: rgb(198, 198, 198);
     border-radius: 5px;
     width: 100px;
 }

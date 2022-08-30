@@ -5,7 +5,7 @@ function Project() {
     <>
       <section className="projects">
         <form className="projects-top d-flex justify-content-between mt-3">
-          <input type="text" className="projects__input form-control" />
+          <input type="text" className="projects__input form-control bg-dark" />
           <button className="btn-success btn btn-projects ms-2">
             New project
           </button>

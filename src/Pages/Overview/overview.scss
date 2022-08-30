@@ -9,9 +9,11 @@
 }
 .card{
     height: 100px;
+    background-color: #0D1117;
+    border: 1px solid gray;
 }
 .card__icon{
-    color: grey;
+    color: rgb(180, 180, 180);
 }
 .card a{
     font-weight: 500;
@@ -37,6 +39,7 @@
 .card__lang{
     margin-top: 10px;
     font-size: 13px;
+    color: gray;
 }
 .gold{
     background-color: gold;

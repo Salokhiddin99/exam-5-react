@@ -26,12 +26,12 @@ function Repo() {
             </button>
             <input
               type="text"
-              className="repo-search__input form-control w-50"
+              className="repo-search__input form-control bg-dark w-50"
             />
             <div className="repo-actions d-flex ms-md-3">
               <div className="dropdown">
                 <button
-                  className="btn btn-secondary repo__btn  dropdown-toggle"
+                  className="btn btn-dark repo__btn  dropdown-toggle"
                   type="button"
                   id="dropdownMenuButton1"
                   data-bs-toggle="dropdown"
@@ -100,7 +100,7 @@ function Repo() {
               </div>
               <div className="dropdown mx-2">
                 <button
-                  className="btn btn-secondary repo__btn  dropdown-toggle"
+                  className="btn btn-dark repo__btn  dropdown-toggle"
                   type="button"
                   id="dropdownMenuButton1"
                   data-bs-toggle="dropdown"
@@ -145,7 +145,7 @@ function Repo() {
               </div>
               <div className="dropdown">
                 <button
-                  className="btn btn-secondary repo__btn  dropdown-toggle"
+                  className="btn btn-dark repo__btn  dropdown-toggle"
                   type="button"
                   id="dropdownMenuButton1"
                   data-bs-toggle="dropdown"

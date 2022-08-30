@@ -12,15 +12,17 @@
 .repo__btn{
     font-size: 15px;
 }
+.dropdown-menu {
+    background-color: #0D1117;
+}
+
 .repo-result__action{
-    // display: inline-flex;
-    // justify-content: center;
-    // align-items: center;
     font-weight: 500;
     height: 20px;
-    border: 1px solid rgba(grey,.7);
+    border: 1px solid gray;
     border-radius: 20px;
     font-size: 13px;
+    color: gray;
 }
 .repo-result__link{
     font-weight: 600;
@@ -32,6 +34,7 @@
 }
 .repo-result__lang{
     font-size: 13px;
+    color: gray;
 }
 .repo-result__circle{
     display: inline-block;

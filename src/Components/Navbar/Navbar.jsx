@@ -29,7 +29,7 @@ function Navbar({ setUserName, userData, setOpen }) {
           <NavLink to="/" className="navbar-brand bg-white me-md-3" href="#">
             <i className="fa-brands fa-github text-bg-dark"></i>
           </NavLink>
-          <ul className="w-75 bg-dark nav__list">
+          <ul className="w-75 nav__list">
             <form className="nav__form bg-dark" onSubmit={form}>
               <label htmlFor="search" className="nav__label w-100">
                 <input
@@ -251,7 +251,7 @@ function Navbar({ setUserName, userData, setOpen }) {
             toggle ? "nav__list-active" : "nav__list-hidden"
           }`}
         >
-          <form className="nav__form bg-dark">
+          <form className="nav__form ">
             <label htmlFor="search" className="nav__label w-100">
               <input
                 type="text"

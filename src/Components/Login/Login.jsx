@@ -17,7 +17,7 @@ function Login({ setOpen }) {
           <i className="fa-brands fa-github text-dark login-icon"></i>
         </div>
         <p className="login-text text-center">Sign in to GitHub</p>
-        <form className="login-form bg-light px-2" onSubmit={login}>
+        <form className="login-form px-2" onSubmit={login}>
           <p className="username-text mt-3">Username or email address</p>
           <input type="text" className="username form-control" />
           <div className="login-password my-3 d-flex align-items-center justify-content-between">

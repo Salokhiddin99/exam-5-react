@@ -9,7 +9,7 @@ function SideBar() {
         <img src={data.avatar_url} alt="user logo" className="bar__img" />
         <p className="bar__user">{data.login}</p>
       </div>
-      <button className="btn btn-light bar__edit border border-1 w-100 text-center fw-semibold">
+      <button className="btn btn-dark bar__edit border border-1 border-dark w-100 text-center fw-semibold">
         Edit profile
       </button>
       <div className="bar__follow my-3">
