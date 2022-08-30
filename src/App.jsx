@@ -19,7 +19,6 @@ function App() {
   useEffect(() => {
     userData();
   }, [userName]);
-  console.log(data);
   return (
     <>
       {open ? (

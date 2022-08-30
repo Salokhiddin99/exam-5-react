@@ -30,7 +30,6 @@ function Overview() {
       .then((ans) => setRepos(ans));
     findMonth();
   }, []);
-  console.log(repos);
   return (
     <>
       <div className="overview">
