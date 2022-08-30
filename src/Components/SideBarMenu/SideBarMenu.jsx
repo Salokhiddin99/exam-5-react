@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import dataContext from "../../Context/DataContext";
-import "./sidebar.scss";
-function SideBar() {
+import "./sidebarmenu.scss";
+function SideBarMenu() {
   const data = useContext(dataContext);
   return (
     <div className="bar mx-md-4">
@@ -24,4 +24,4 @@ function SideBar() {
   );
 }
 
-export default SideBar;
+export default SideBarMenu;

@@ -1,13 +1,13 @@
 import React from "react";
 import "./main.scss";
-import FixedMenu from "../FixedMenu/FixedMenu";
+import FixedMenu from "../Fixed/Fixed";
 import { Routes, Route } from "react-router-dom";
 import Overview from "../../Pages/Overview/Overview";
-import Repo from "../../Pages/Repos/Repo";
+import Repo from "../../Pages/Repostory/Repostory";
 import Project from "../../Pages/Project/Project";
-import Pack from "../../Pages/Packages/Pack";
+import Pack from "../../Pages/Packages/Packages";
 import Stars from "../../Pages/Stars/Stars";
-import SideBar from "../SideBar/SideBar";
+import SideBar from "../SideBarMenu/SideBarMenu";
 import Footer from "../Footer/Footer";
 function Main() {
   return (

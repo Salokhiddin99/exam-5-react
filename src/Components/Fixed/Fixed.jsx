@@ -2,8 +2,8 @@ import React, { useState, useEffect, useContext } from "react";
 import { NavLink } from "react-router-dom";
 import get from "../../API/GET/Get";
 import dataContext from "../../Context/DataContext";
-import "./fixedmenu.scss";
-function FixedMenu({ className }) {
+import "./fixed.scss";
+function Fixed({ className }) {
   const fullData = useContext(dataContext);
   const [stickyNav, setStickyNav] = useState(false);
 
@@ -130,4 +130,4 @@ function FixedMenu({ className }) {
   );
 }
 
-export default FixedMenu;
+export default Fixed;

@@ -1,21 +1,28 @@
 import React, { useState, useEffect, useContext, useRef } from "react";
-import "./repo.scss";
+import "./repostory.scss";
 import dataContext from "../../Context/DataContext";
-function Repo() {
+function Repostory() {
+
   const data = useContext(dataContext);
+
   const [repos, setRepos] = useState([]);
+
   const [page, setPage] = useState(1);
+
   useEffect(() => {
     fetch(`${data.repos_url}?page=${page}&per_page=30`)
       .then((res) => res.json())
       .then((data) => setRepos(data));
   }, [page]);
+
   const number = [];
-  console.log(repos);
+
   const btnPrev = useRef();
+
   const btnNext = useRef();
+
   let x = Math.ceil(data.public_repos) / 30;
-  console.log(x);
+
   return (
     <>
       <section className="repo pt-3">
@@ -300,4 +307,4 @@ function Repo() {
   );
 }
 
-export default Repo;
+export default Repostory;

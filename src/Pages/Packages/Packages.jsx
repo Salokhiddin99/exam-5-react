@@ -1,6 +1,6 @@
 import React from "react";
-import "./pack.scss";
-function Pack() {
+import "./packages.scss";
+function Packages() {
   return (
     <>
       <div className="pack pt-3">
@@ -25,60 +25,55 @@ function Pack() {
             </a>
           </div>
           <div className="card pack-card">
-            <h4 className="pack-card__title">Docker</h4>
+            <h4 className="pack-card__title">Apache Meven</h4>
             <p className="pack-card__text mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aliquam, esse vel adipisci non dolore pariatur. Maiores officiis
-              sit, laborum veniam in debitis, laboriosam ad et facilis dolorum
-              inventore quidem!
+              sit, 
             </p>
             <a href="#" className="pack-card__link mt-3">
               Learn more
             </a>
           </div>
           <div className="card pack-card">
-            <h4 className="pack-card__title">Docker</h4>
+            <h4 className="pack-card__title">Nugut</h4>
             <p className="pack-card__text mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aliquam, esse vel adipisci non dolore pariatur. Maiores officiis
-              sit, laborum veniam in debitis, laboriosam ad et facilis dolorum
-              inventore quidem!
+              sit, 
             </p>
             <a href="#" className="pack-card__link mt-3">
               Learn more
             </a>
           </div>
           <div className="card pack-card">
-            <h4 className="pack-card__title">Docker</h4>
+            <h4 className="pack-card__title">RubyGames</h4>
             <p className="pack-card__text mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aliquam, esse vel adipisci non dolore pariatur. Maiores officiis
-              sit, laborum veniam in debitis, laboriosam ad et facilis dolorum
-              inventore quidem!
+              sit,
             </p>
             <a href="#" className="pack-card__link mt-3">
               Learn more
             </a>
           </div>
           <div className="card pack-card">
-            <h4 className="pack-card__title">Docker</h4>
+            <h4 className="pack-card__title">npm</h4>
             <p className="pack-card__text mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aliquam, esse vel adipisci non dolore pariatur. Maiores officiis
-              sit, laborum veniam in debitis, laboriosam ad et facilis dolorum
-              inventore quidem!
+              sit, 
             </p>
             <a href="#" className="pack-card__link mt-3">
               Learn more
             </a>
           </div>
           <div className="card pack-card">
-            <h4 className="pack-card__title">Docker</h4>
+            <h4 className="pack-card__title">Containers</h4>
             <p className="pack-card__text mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aliquam, esse vel adipisci non dolore pariatur. Maiores officiis
-              sit, laborum veniam in debitis, laboriosam ad et facilis dolorum
-              inventore quidem!
+              sit, 
             </p>
             <a href="#" className="pack-card__link mt-3">
               Learn more
@@ -90,4 +85,4 @@ function Pack() {
   );
 }
 
-export default Pack;
+export default Packages;
